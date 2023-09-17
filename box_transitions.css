@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5e1f5;
+    padding: 2rem;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    
+}
+
+.sec > div:last-child {
+    position: relative;
+    right: 15%;
+}
+
+.sec > div:first-child {
+    position: relative;
+    left: 15%;
+}
+
+.sefid {
+    width: 15vw;
+    height: 10vw;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+.toosi {
+    width: 50%;
+    height: 70%;
+    background-color: rgb(189, 186, 186);
+    align-self: center;
+}
+
+.banafsh {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(240, 104, 245);
+    transition:all 1s;
+}
+
+.a1:hover {
+    transform: rotate(45deg);
+    opacity: 0.6;
+}
+
+.a2:hover {
+    transform: rotateX(45deg);
+    opacity: 0.6;
+}
+
+.a3:hover {
+    transform: rotateY(45deg);
+    opacity: 0.6;
+}
+
+.a4:hover {
+    transform: scale(2);
+    opacity: 0.6;
+}
+
+.a5:hover {
+    transform: scaleX(2);
+    opacity: 0.6;
+}
+
+.b1:hover {
+    transform: scaleY(2);
+    opacity: 0.6;
+}
+
+.b2:hover {
+    transform: skewX(45deg);
+    opacity: 0.6;
+}
+
+.b3:hover {
+    transform: skewY(45deg);
+    opacity: 0.6;
+}
+
+.b4:hover {
+    transform: translate(45%, 20%);
+    opacity: 0.6;
+}
+
+.b5:hover {
+    transform: translateX(48%);
+    opacity: 0.6;
+}
+
+.c1:hover {
+    transform: translateY(48%);
+    opacity: 0.6;
+}
+
+.c2:hover {
+    transform: translateX(48%) skewY(45deg) scale(2);
+    opacity: 0.6;
+}
+
+.d1:hover {
+    transform: perspective(90px) rotateX(45deg);
+    opacity: 0.6;
+}
+
+.d2:hover {
+    transform: perspective(90px) rotateY(45deg);
+    opacity: 0.6;
+}
+
+.e1 {
+    transform-origin: top right;
+}
+
+.e1:hover {
+    transform: rotate(45deg);
+    opacity: 0.6;
+}
+
+.e2 {
+    transform-origin: bottom left;
+}
+
+.e2:hover {
+    transform: rotate(45deg);
+    opacity: 0.6;
+}
+
+.e3 {
+    transform-origin: center bottom;
+}
+
+.e3:hover {
+    transform: perspective(200px) rotateX(40deg);
+    opacity: 0.6;
+}
+
+.e4 {
+    transform-origin: center top;
+}
+
+.e4:hover {
+    transform: perspective(200px) rotateX(60deg);
+    opacity: 0.6;
+}
+
+.e5 {
+    transform-origin: center left;
+}
+
+.e5:hover {
+    transform: perspective(200px) rotateY(40deg);
+    opacity: 0.6;
+}
+
+.f1 {
+    transform-origin: center right;
+}
+
+.f1:hover {
+    transform: perspective(200px) rotateY(60deg);
+    opacity: 0.6;
+}
+
+.f2 {
+    transform-origin: top right;
+}
+
+.f2:hover {
+    transform: scale(2);
+    opacity: 0.6;
+}
+
+.f3 {
+    transform-origin: bottom left;
+}
+
+.f3:hover {
+    transform: scale(2);
+    opacity: 0.6;
+}
+
+.f4 {
+    transform-origin: center right;
+}
+
+.f4:hover {
+    transform: scaleX(2);
+    opacity: 0.6;
+}
+
+.f5 {
+    transform-origin: center left;
+}
+
+.f5:hover {
+    transform: scaleX(2);
+    opacity: 0.6;
+}
+
+.g1 {
+    transform-origin: center top;
+}
+
+.g1:hover {
+    transform: scaleY(2);
+    opacity: 0.6;
+}
+
+.g2 {
+    transform-origin: center bottom;
+}
+
+.g2:hover {
+    transform: scaleY(2);
+    opacity: 0.6;
+}
